@@ -35,10 +35,10 @@ function App() {
   ]
 
   return (
-    <>
+    <div className='app-wrapper'>
       <Header />
       <Entry countryDataArray={countryDataArray} />
-    </>
+    </div>
   )
 }
 
