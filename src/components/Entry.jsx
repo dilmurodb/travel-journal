@@ -16,7 +16,7 @@ export default function Entry({ countryDataArray }) {
                         <section className='entry-article-top'>
                         <img className='entry-map-logo' src={maplogo} alt='map logo'/>
                         <h3>{country.country}</h3>
-                            <a>View on Google Maps</a> 
+                            <a href={country.mapurl} target='_blank'>View on Google Maps</a> 
                         </section>
                         <h2>{country.destination}</h2>
                         <h4>{country.dates}</h4>
